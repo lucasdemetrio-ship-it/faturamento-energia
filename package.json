@@ -1,0 +1,16 @@
+{
+  "name": "faturamento-energia",
+  "version": "1.0.0",
+  "description": "Projeto de faturamento de energia",
+  "type": "module",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "author": "Lucas Eduardo Demétrio",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
